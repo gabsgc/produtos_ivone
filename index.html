@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Produtos Ivone | A beleza está ao seu alcance</title>
+		<link rel="stylesheet" href="css/estilo.css" type="text/css">
+	</head>
+	<body>
+		<div id="cabecalho">
+    		<h1>Produtos Ivone</h1>
+		</div>
+		<div id="corpo">
+    		<div id="slideShow">
+				<ul class="slider">
+					<li>
+						<input type="radio" id="slide1" name="slide" checked>
+						<label for="slide1"></label>
+						<img src="img/slide1.png" alt="Produtos Ivone">
+					</li>
+					<li>
+						<input type="radio" id="slide2" name="slide">
+						<label for="slide2"></label>
+						<img src="img/slide2.png" alt="Dia das mães">
+					</li>
+					<li>
+						<input type="radio" id="slide3" name="slide">
+						<label for="slide3"></label>
+						<img src="img/slide3.png" alt="Queremos cuidar de você">
+					</li>
+				</ul>
+    		</div>
+    		<div id="formulario">
+				<h2>SEJA UMA CONSULTORA</h2>
+				<h3>Realize os seus sonhos com os Produtos Ivone</h3>
+				<p>Preencha o formulário abaixo para realizar o seu cadastro</p>
+	        	<form action="mailto: " method="post">
+					<div>
+						<label for="cNome">Nome completo:</label>
+						<input type="text" id="cNome" name="tNome" size = "30">
+					</div>
+					<div>
+						<label for="cpf">CPF:</label>
+						<input type="text" id="cpf" name="usuario_cpf" size="30" maxlength="11"/>
+					</div>
+					<div>
+						<label for="dataNasc">Data de Nascimento:</label>
+						<input type="date" id="dataNasc" name="dNasc">
+					</div>
+					<div>
+						<label for="">Sexo:</label>
+						<label><input type="radio" name="tSexo" id="cMasc" class="radio" label for="cMasc">Masculino</label>
+						<label><input type="radio" name="tSexo" id="cFem" class="radio" label for="cFem">Feminino</label>
+					</div>
+					<div>
+						<label for="cMail">E-mail:</label>
+						<input type="email" id="cMail" name="tMail" size="30"/>
+					</div>
+					<div>
+						<label for="tele">Telefone:</label>
+						<input type="text" id="tele" name="usuario_tele" placeholder="(00)00000-0000" maxlength="11"/>
+					</div>
+					<div>
+						<label for="cep">CEP:</label>
+						<input type="text" id="cep" name="end_cep" placeholder="00000-000" maxlength="8" />
+					</div>
+					<div>
+						<label for="cRua">Logradouro:</label>
+						<input type="text" name="tRua" id="cRua" size="30" maxlength="80" >
+					</div>
+					<div>
+						<label for="cNum">Número:</label>
+						<input type="number" name="tNum" id="cNum" min="0" max="9999">
+					</div>
+					<div>
+						<label for="comp">Complemento:</label>
+						<input type="text" id="comp" name="end_comp" size="10" />
+					</div>
+					<div>
+						<label for="bairro">Bairro:</label>
+						<input type="text" id="bairro" name="end_bairro" />
+					</div>
+					<div>
+						<label for="cCid">Cidade:</label>
+						<input type="text" name="tCid" id="cCid" size="20" maxlength="40">
+					</div>
+					<div>
+						<label for="cEst">Estado:</label><select name="tEst" id="cEst">
+							<option value="0" selected>Selecione o seu Estado</option>
+							<optgroup label="Região Norte">
+								<option value="AC">Acre</option>
+								<option value="AP">Amapá</option>
+								<option value="AM">Amazonas</option>
+								<option value="PA">Pará</option>
+								<option value="RO">Rondônia</option>
+								<option value="RR">Roraima</option>
+								<option value="TO">Tocantis</option>
+							</optgroup>
+							<optgroup label="Região Nordeste">
+								<option value="Al">Alagoas</option>
+								<option value="BA">Bahia</option>
+								<option value="CE">Ceará</option>
+								<option value="MA">Maranhão</option>
+								<option value="PB">Paraíba</option>
+								<option value="PE">Pernambuco</option>
+								<option value="PI">Piauí</option>
+								<option value="RN">Rio Grande do Norte</option>
+								<option value="SE">Sergipe</option>
+							</optgroup>
+							<optgroup label="Região Centro-Oeste">
+								<option value="DF">Dístrito Federal</option>
+								<option value="GO">Goiás</option>
+								<option value="MS">Mato Grosso do Sul</option>
+								<option value="MT">Mato Grosso</option>
+							</optgroup>
+							<optgroup label="Região Sudeste">
+								<option value="ES">Espírito Santo</option>
+								<option value="MG">Minas Gerais</option>
+								<option value="RJ">Rio de Janeiro</option>  
+								<option value="SP">São Paulo</option>  
+							</optgroup>
+							<optgroup label="Região Sul">
+								<option value="PR">Paraná</option>
+								<option value="RS">Rio Grande do Sul</option>
+								<option value="SC">Santa Catarina</option>
+							</optgroup>
+							</select>
+					</div>
+					<div class="button">
+						<button type="submit">Cadastrar</button>
+					</div>
+				</form>
+    		</div>    
+		</div>
+		<div id="rodape">
+    		<h4> &copy Produtos Ivone 2020 - Todos os direitos reservados</h4>
+			<h4> Desenvolvido por Gabriela Garcia e Wallas Curty</h4>
+		</div>
+	</body>
+</html>

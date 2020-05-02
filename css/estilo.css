@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap'); /*Fonte do H2 */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap'); /*Fonte do paragráfo */
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@700&display=swap'); /*Fonte do H1 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#cabecalho{
+	background-color: #8A084B;
+	margin: 0px 150px 0px 150px;
+	padding: 15px;
+}
+
+#cabecalho h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Muli';
+	padding-bottom: 10px;
+	font-size: 30pt;
+}
+
+#corpo{
+	padding: 10px;
+}
+
+p {
+	text-align: center;
+	font-family: 'Barlow';
+	font-size: 16pt;
+}
+
+h2 {
+	font-family: 'Work Sans';
+	color: #ffffff;
+	background-color:#B4045F;
+	font-size: 25pt;
+	text-align: center;
+	padding: 1em;
+}
+
+#formulario h3 {
+	font-family: 'Work Sans';
+	color: #B4045F;
+	font-size: 20pt;
+	text-align: center;
+	padding: 0.7em;
+}
+
+#slideShow{
+	text-align: center;
+	height: 350px;
+	padding-bottom: 80px;
+}
+
+/*formatação do slideshow */
+.slider {
+	display: block;
+	height: 600px;
+	width: 900px;
+	margin-left: 150px;
+	position: relative;
+}
+
+.slider li {
+	list-style: none;
+	position: absolute;
+	width: 1000px;
+	height: 400px;
+	margin-left: 18px;
+}
+
+.slider img {
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	vertical-align: top;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.slider input {
+	display: none;
+}
+
+.slider li input:checked ~ img {
+	opacity: 1;
+	visibility: visible;
+	z-index: 10;
+}
+
+.slider label {
+	background-color: #cecece;
+	margin-left: 455px;
+	bottom: 10px;
+	cursor: pointer;
+	display: block;
+	height: 10px;
+	position: absolute;
+	width: 10px;
+	z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+	left: 10px;
+}
+
+.slider li:nth-child(2) label {
+	left: 40px;
+}
+
+.slider li:nth-child(3) label {
+	left: 70px;
+}
+/*fim da formatação do slideshow */
+
+#formulario {
+	margin: 0px 150px 0px 150px;
+	height: 750px;
+}
+
+/*formatação do formulário */
+form {
+	margin: 0 auto;
+	padding: 1em;
+	padding-left: 320px;
+    border: 1px solid #cecece;
+	border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+input {
+    font: 1em monospace;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #2E2E2E;
+}
+
+input.radio {
+	width: 30px;
+	text-align: left;
+}
+
+.button {
+	padding-left: 120px;
+}
+
+button {
+	margin-left: .5em;
+	width: 150px;
+}
+/*fim da formatação do formulário */
+
+#rodape h4 {
+	font-family: Arial;
+	padding: 10px;
+}
+
+#rodape{
+	padding: 10px 2%;
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	margin: 0px 150px 0px 150px;
+}
